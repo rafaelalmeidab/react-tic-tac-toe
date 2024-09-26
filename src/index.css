@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrainsMono&family=Roboto+Slab:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
   line-height: 1.5;
 
   color: #ebe7ef;
@@ -18,15 +18,8 @@ html {
 }
 
 body {
-  background: radial-gradient(
-      circle at top,
-      rgba(241, 210, 70, 0.98),
-      rgba(250, 176, 103, 0.87)
-    ),
-    url('bg-pattern-dark.png');
-  background-repeat: repeat;
-  background-size: 100% 100%, 30% 30%, 100% 100%;
-  min-height: 110rem;
+  background: linear-gradient(to right, black, #002542);
+  min-height: 10rem;
 }
 
 header {
@@ -41,10 +34,10 @@ header img {
 }
 
 h1 {
-  font-family: 'Caprasimo', cursive;
+  font-family: 'JetBrains Mono', cursive;
   font-size: 3rem;
   margin: 0 auto 3rem auto;
-  color: #3f3b00;
+  color: #ffffff;
 }
 
 #game-container {
@@ -52,7 +45,7 @@ h1 {
   margin: 3rem auto;
   padding: 2rem;
   border-radius: 6px;
-  background: linear-gradient(#383624, #282617);
+  background: linear-gradient(#444444, #000000);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   position: relative;
 }
@@ -75,13 +68,13 @@ h1 {
 }
 
 #players.highlight-player li.active {
-  border-color: #f6e35a;
+  border-color: #ffffff;
   animation: pulse 2s infinite ease-in-out;
 }
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-  color: #f6e35a;
+  color: #000000;
 }
 
 #players button {
@@ -97,7 +90,7 @@ h1 {
 }
 
 #players button:hover {
-  color: #f8ca31;
+  color: #000000;
 }
 
 .player {
@@ -153,7 +146,7 @@ ol {
   background: none;
   color: #f8c031;
   border: none;
-  font-family: 'Caprasimo', cursive;
+  font-family: 'JetBrains Mono', cursive;
   font-size: 4rem;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
   animation: pulse-text-size 2s infinite ease-out;
@@ -183,10 +176,10 @@ ol {
   height: 8rem;
   border: none;
   background: #aca788;
-  color: #3f3b00;
+  color: #ff0000;
   font-size: 5rem;
   cursor: pointer;
-  font-family: 'Caprasimo', cursive;
+  font-family: 'JetBrains Mono', cursive;
   padding: 1rem;
 }
 
@@ -205,7 +198,7 @@ ol {
 }
 
 #game-over h2 {
-  font-family: 'Caprasimo', cursive;
+  font-family: 'JetBrains Mono', cursive;
   font-size: 4rem;
   text-align: center;
   color: #fcd256;
@@ -234,14 +227,14 @@ ol {
 
 #game-over button:hover {
   background: #fcd256;
-  color: #3f3b00;
+  color: #a5a053;
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
 }
 
 #log {
   max-width: 20rem;
-  color: #3f3b00;
+  color: #004e81;
   list-style: none;
   margin: 2rem auto;
   padding: 0;
@@ -265,7 +258,7 @@ ol {
 }
 
 #game-hints h2 {
-  font-family: 'Caprasimo', cursive;
+  font-family: 'JetBrains Mono', cursive;
   font-size: 2rem;
   margin: 0;
 }
