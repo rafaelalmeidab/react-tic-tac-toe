@@ -68,13 +68,13 @@ h1 {
 }
 
 #players.highlight-player li.active {
-  border-color: #ffffff;
+  border-color: #f6e35a;
   animation: pulse 2s infinite ease-in-out;
 }
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-  color: #000000;
+  color: #f6e35a;
 }
 
 #players button {
@@ -90,7 +90,7 @@ h1 {
 }
 
 #players button:hover {
-  color: #000000;
+  color: #e1dec7;
 }
 
 .player {
@@ -176,7 +176,7 @@ ol {
   height: 8rem;
   border: none;
   background: #aca788;
-  color: #ff0000;
+  color:#002542;
   font-size: 5rem;
   cursor: pointer;
   font-family: 'JetBrains Mono', cursive;
@@ -234,7 +234,7 @@ ol {
 
 #log {
   max-width: 20rem;
-  color: #004e81;
+  color: #ffffff;
   list-style: none;
   margin: 2rem auto;
   padding: 0;
