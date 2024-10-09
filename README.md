@@ -14,7 +14,7 @@ Funcionalidades
    ```bash
    git clone https://github.com/rafaelalmeidab/react-tic-tac-toe
 
-## Inicializando o Servidor
+## Inicializando o Projeto
 
 2. Para iniciar o projeto, construa as imagens do Docker:
 
