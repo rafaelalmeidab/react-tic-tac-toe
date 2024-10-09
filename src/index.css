@@ -40,6 +40,27 @@ h1 {
   color: #ffffff;
 }
 
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  background: none;
+  border: 2px solid #fcd256;
+  color: #fcd256;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s, color 0.2s;
+  box-shadow: 0 0 8px rgba(255, 187, 0, 0.4);
+}
+
+button:hover {
+  background: #fcd256;
+  color: #a5a053;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
+}
+
 #game-container {
   max-width: 45rem;
   margin: 3rem auto;
